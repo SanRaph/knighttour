@@ -9,6 +9,23 @@
  * L-shaped moves (two spaces in one direction and one space in a perpendicular direction).
  * Thus, as shown in Fig. 7.30, from a square near the middle of an empty chessboard, the knight
  * (labeled K) can make eight different moves (numbered 0 through 7).
+ *
+ * Row = { 2, 1, -1, -2, -2, -1, 1, 2 };
+ * Column = { 1, 2, 2, 1, -1, -2, -2, -1 };
+ *
+ * LeftMovement is -
+ * RightMovement is +
+ * TopMovement is +
+ * DownMovement is -
+ *
+ * Row[2]Column[1] - Move right 2 cells and turn once
+ * Row[1]Column[2] - turn once and move twice
+ * Row[-1]Column[2]
+ * Row[-2]Column[1]
+ * Row[-2]Column[-1]
+ * Row[-1]Column[-2]
+ * Row[1]Column[-2]
+ * Row[2]Column[-1]
  **************************************************/
 
 
